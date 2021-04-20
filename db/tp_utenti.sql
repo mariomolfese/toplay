@@ -6,6 +6,7 @@ CREATE TABLE IF NOT EXISTS `tp_utenti` (
   `cf` varchar(16) CHARACTER SET utf8 NOT NULL,
   `email` varchar(100) CHARACTER SET utf8 NOT NULL,
   `password` varchar(32) CHARACTER SET utf8 NOT NULL,
+  `registrazione` varchar(32) CHARACTER SET utf8 DEFAULT NULL,
   PRIMARY KEY (`pk`)
 );
 
